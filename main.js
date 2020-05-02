@@ -1,6 +1,6 @@
 var delay_time = 7; // delay time loop (milisecond)
 var delay_loop = delay_time * 1000; // delay time loop (milisecond)
-let port = process.env.PORT || 80;
+let port = process.env.PORT || 3000;
 let express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
