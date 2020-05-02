@@ -10,7 +10,7 @@
   "scripts": {
     "postinstall": "npm run build",
     "start": "node main.js",
-    "build": "webpack"
+    "build": "node main.js"
   },
   "author": "Kunkey",
   "license": "ISC",
