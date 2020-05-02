@@ -2,6 +2,9 @@
   "name": "view-live",
   "version": "1.0.0",
   "description": "Tang mat live stream",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "main.js",
   "scripts": {
     "postinstall": "npm run build",
