@@ -4,7 +4,8 @@
   "description": "Tang mat live stream",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "postinstall": "npm run build",
+    "start": "node main.js"
   },
   "author": "Kunkey",
   "license": "ISC",
